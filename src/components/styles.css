@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff; 
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; 
+    text-align: center;
+    
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-family: verdana, sans-serif;
+  }
+  
+  p {
+    font-size: 30px;
+    font-family: 'Times New Roman', sans-serif;
+  }
+  
+  h1, p {
+    margin: 10px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #65d0a3;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+  
+  .blog-posts-container {
+    background-image: none;
+    
+  }
+  
+.quote-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .load-more-button {
+    background-color: #65d0a3;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
